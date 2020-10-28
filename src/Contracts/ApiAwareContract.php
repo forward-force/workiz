@@ -14,9 +14,8 @@ interface ApiAwareContract
     /**
      * Get entity by its id, could be uuid or some other identifier such as username
      *
-     * @param string $uuid
+     * @param  string $uuid
      * @return array
      */
     public function getById(string $uuid): array;
-
 }

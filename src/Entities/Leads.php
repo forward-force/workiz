@@ -22,7 +22,7 @@ class Leads extends HttpClient implements ApiAwareContract
     /**
      * Get Lead bu its uuid
      *
-     * @param string $uuid
+     * @param  string $uuid
      * @return array
      * @throws GuzzleException
      */

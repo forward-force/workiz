@@ -10,7 +10,7 @@ trait Pagable
     /**
      * Offset for pagination
      *
-     * @param int $offset
+     * @param  int $offset
      * @return $this
      */
     public function skip(int $offset): self
@@ -22,7 +22,7 @@ trait Pagable
     /**
      * Limit for pagination
      *
-     * @param int $records
+     * @param  int $records
      * @return $this
      */
     public function take(int $records): self

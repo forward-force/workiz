@@ -1,6 +1,5 @@
 <?php
 
-
 namespace ForwardForce\Workiz;
 
 use ForwardForce\Workiz\Traits\Pagable;
@@ -32,12 +31,14 @@ class HttpClient
 
     /**
      * If there is next page
+     *
      * @var bool
      */
     protected bool $hasMore;
 
     /**
      * Num of results returned by the API call
+     *
      * @var int
      */
     private int $found;
@@ -50,7 +51,7 @@ class HttpClient
     /**
      * Send get request
      *
-     * @param string $endpoint
+     * @param  string $endpoint
      * @return array
      * @throws GuzzleException
      */
@@ -91,7 +92,7 @@ class HttpClient
     /**
      * Add query parameters to endpoint
      *
-     * @param string $endpoint
+     * @param  string $endpoint
      * @return string
      */
     protected function buildQuery(string $endpoint): string

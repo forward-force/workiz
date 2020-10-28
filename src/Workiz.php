@@ -25,14 +25,14 @@ class Workiz
      *
      * @return Jobs
      */
-    public function  jobs(): Jobs
+    public function jobs(): Jobs
     {
         return new Jobs($this->apiKey);
     }
 
     /**
      * Get leads from API
-     * 
+     *
      * @return Leads
      */
     public function leads(): Leads

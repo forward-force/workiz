@@ -22,7 +22,7 @@ class Jobs extends HttpClient implements ApiAwareContract
     /**
      * Get Job by its uuid
      *
-     * @param string $uuid
+     * @param  string $uuid
      * @return array
      * @throws GuzzleException
      */

@@ -1,8 +1,6 @@
 <?php
 
-
 namespace ForwardForce\Workiz\Traits;
-
 
 trait Parametarable
 {
@@ -11,8 +9,8 @@ trait Parametarable
     /**
      * Add a query parameter
      *
-     * @param string $key
-     * @param $value
+     * @param  string $key
+     * @param  $value
      * @return $this
      */
     public function addQueryParameter(string $key, $value): self
@@ -24,7 +22,7 @@ trait Parametarable
     /**
      * Remove a query parameter
      *
-     * @param string $key
+     * @param  string $key
      * @return $this
      */
     public function removeQueryParameter(string $key): self
