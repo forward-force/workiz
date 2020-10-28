@@ -10,6 +10,7 @@ class Workiz
 {
     /**
      * Workiz API key
+     *
      * @var string
      */
     protected string $apiKey;
@@ -31,6 +32,7 @@ class Workiz
 
     /**
      * Get leads from API
+     * 
      * @return Leads
      */
     public function leads(): Leads
