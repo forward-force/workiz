@@ -10,5 +10,5 @@ before_script:
 
 script:
     - composer test
-    - compsoer phpcs
+    - composer phpcs
     - composer psalm
