@@ -15,7 +15,7 @@ trait Parametarable
      * @param $value
      * @return $this
      */
-    protected function addQueryParameter(string $key, $value): self
+    public function addQueryParameter(string $key, $value): self
     {
         $this->query[$key] = $value;
         return $this;
@@ -27,7 +27,7 @@ trait Parametarable
      * @param string $key
      * @return $this
      */
-    protected function removeQueryParameter(string $key): self
+    public function removeQueryParameter(string $key): self
     {
         unset($this->query[$key]);
         return $this;
@@ -39,7 +39,7 @@ trait Parametarable
      *
      * @return $this
      */
-    protected function resetQueryParameters(): self
+    public function resetQueryParameters(): self
     {
         $this->query = [];
         return $this;
