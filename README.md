@@ -1,4 +1,4 @@
-# Workiz API - PHP Wrapper
+# Workiz API - PHP SDK
 
 This is a wrapper around [Workiz API](https://workiz.com/). The API is very minimal, so this implementation is fairly simple.
 
@@ -177,7 +177,7 @@ you could set it to anything.
 
 There is auto-generated documentation as to how to run this library on local, please  take a look at [phpdocker/README.md](phpdocker/README.md)
 
-#####If you find an issue, have a question, or a suggestion, please don't hesitate to open a github issue.
+*If you find an issue, have a question, or a suggestion, please don't hesitate to open a github issue.*
 
 ### Acknowledgments 
 
